@@ -2,7 +2,7 @@ name: Scraper Kiribati
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "26 4 * * 2"
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
